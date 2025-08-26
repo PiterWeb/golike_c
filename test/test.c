@@ -14,8 +14,10 @@ int main() {
     for (int i = 0; i < arr.len; i++) {
         printf("Arr[%d] = %d\n", i, arr.value[i]);
     }
-    
-    
+
+    Array(byte) new_arr;
+
+    append(new_arr, arr, hola);
     
     free_array(arr);
 }
